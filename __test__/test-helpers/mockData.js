@@ -1,0 +1,126 @@
+const mockArticles = [
+  {
+    uri: 'nyt://article/814f7f80-5568-5d70-9601-e7b0675a7c14',
+    url: 'https://www.nytimes.com/2024/04/21/nyregion/trump-trial-jurors.html',
+    id: 100000009425172,
+    asset_id: 100000009425172,
+    source: 'New York Times',
+    published_date: '2024-04-21',
+    updated: '2024-04-22 00:01:40',
+    section: 'New York',
+    subsection: '',
+    nytdsection: 'new york',
+    adx_keywords: 'New York State Criminal Case Against Trump (71543-23);Jury System;Blanche, Todd (Attorney);Trump, Donald J;Merchan, Juan M',
+    column: null,
+    byline: 'By Maggie Haberman',
+    type: 'Article',
+    title: 'Dismissed Trump Jurors Describe Intense Days in a Glaring Spotlight',
+    abstract: 'Two prospective jurors who were excused contacted The New York Times to describe their experience in the fraught environment of an unprecedented trial.',
+    des_facet: [
+      'New York State Criminal Case Against Trump (71543-23)',
+      'Jury System',
+    ],
+    org_facet: [],
+    per_facet: [
+      'Blanche, Todd (Attorney)',
+      'Trump, Donald J',
+      'Merchan, Juan M',
+    ],
+    geo_facet: [],
+    media: [
+      {
+        type: 'image',
+        subtype: 'photo',
+        caption: 'The weeklong jury selection process was a pressure cooker for many of the nearly 300 Manhattan residents who were summoned to be interviewed. ',
+        copyright: 'Maansi Srivastava/The New York Times',
+        approved_for_syndication: 1,
+        'media-metadata': [
+          {
+            url: 'https://static01.nyt.com/images/2024/04/21/multimedia/21dismissed-jurors-wpml/21dismissed-jurors-wpml-thumbStandard.jpg',
+            format: 'Standard Thumbnail',
+            height: 75,
+            width: 75,
+          },
+          {
+            url: 'https://static01.nyt.com/images/2024/04/21/multimedia/21dismissed-jurors-wpml/21dismissed-jurors-wpml-mediumThreeByTwo210.jpg',
+            format: 'mediumThreeByTwo210',
+            height: 140,
+            width: 210,
+          },
+          {
+            url: 'https://static01.nyt.com/images/2024/04/21/multimedia/21dismissed-jurors-wpml/21dismissed-jurors-wpml-mediumThreeByTwo440.jpg',
+            format: 'mediumThreeByTwo440',
+            height: 293,
+            width: 440,
+          },
+        ],
+      },
+    ],
+    eta_id: 0,
+  },
+  {
+    uri: 'nyt://article/8a707d59-0c9a-5969-8f6a-812212b7572f',
+    url: 'https://www.nytimes.com/2024/04/21/us/terry-anderson-dead.html',
+    id: 100000009425644,
+    asset_id: 100000009425644,
+    source: 'New York Times',
+    published_date: '2024-04-21',
+    updated: '2024-04-21 23:10:13',
+    section: 'U.S.',
+    subsection: '',
+    nytdsection: 'u.s.',
+    adx_keywords: 'Deaths (Obituaries);News and News Media;Kidnapping and Hostages;Terrorism;Anderson, Terry A (1947- );Associated Press',
+    column: null,
+    byline: 'By Sam Roberts',
+    type: 'Article',
+    title: 'Terry Anderson, Reporter Held Hostage for Six Years, Dies at 76',
+    abstract: 'The Beirut bureau chief for The Associated Press, he was kidnapped in 1985 by Islamic militants.',
+    des_facet: [
+      'Deaths (Obituaries)',
+      'News and News Media',
+      'Kidnapping and Hostages',
+      'Terrorism',
+    ],
+    org_facet: [
+      'Associated Press',
+    ],
+    per_facet: [
+      'Anderson, Terry A (1947- )',
+    ],
+    geo_facet: [],
+    media: [
+      {
+        type: 'image',
+        subtype: 'photo',
+        caption: 'Terry Anderson arriving at Dulles International Airport in 1991 after his release. He had been taken hostage in 1985.',
+        copyright: 'Barry Thumma/Associated Press',
+        approved_for_syndication: 1,
+        'media-metadata': [
+          {
+            url: 'https://static01.nyt.com/images/2024/04/21/multimedia/21anderson1/21anderson1-thumbStandard.jpg',
+            format: 'Standard Thumbnail',
+            height: 75,
+            width: 75,
+          },
+          {
+            url: 'https://static01.nyt.com/images/2024/04/21/multimedia/21anderson1/21anderson1-mediumThreeByTwo210.jpg',
+            format: 'mediumThreeByTwo210',
+            height: 140,
+            width: 210,
+          },
+          {
+            url: 'https://static01.nyt.com/images/2024/04/21/multimedia/21anderson1/21anderson1-mediumThreeByTwo440.jpg',
+            format: 'mediumThreeByTwo440',
+            height: 293,
+            width: 440,
+          },
+        ],
+      },
+    ],
+    eta_id: 0,
+  },
+];
+
+export {
+  mockArticles,
+};

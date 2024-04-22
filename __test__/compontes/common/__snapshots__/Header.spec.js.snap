@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Tests should match snapshot 1`] = `
+<div
+  className="header"
+>
+  <h3>
+    Welcome to React Post Articles
+  </h3>
+</div>
+`;
